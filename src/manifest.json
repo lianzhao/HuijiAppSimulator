@@ -1,0 +1,35 @@
+{
+  "manifest_version": 2,
+
+  "name": "Huiji App Simulator",
+  "description": "A chrome extension to browse huiji wiki in 'app mode'",
+  "version": "0.0.1",
+  "author": "lianzhao",
+  "homepage_url": "https://github.com/lianzhao/HuijiAppSimulator",
+  
+  "icons": { "16": "resources/icon.ico",
+           "48": "resources/icon.ico",
+          "128": "resources/icon.ico" },
+  
+  "content_scripts": [
+    {
+      "matches": ["http://*.huiji.wiki/wiki/*"],
+      "include_globs": [ "http://*.huiji.wiki/wiki/*action=render*" ],
+      "exclude_globs": [ "http://*.huiji.wiki/wiki/*:*" ],
+      "css": ["lib/huiji/wikiview-min.css", "lib/huiji/appfix.css"],
+      "js": ["lib/huiji/jquery.js", "lib/huiji/bootstrap.min.js", "lib/huiji/portal.js", "content_script.js"]
+    }
+  ],
+  
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "http://*.huiji.wiki/"
+  ],
+
+  "browser_action": {
+    "default_title": "Huiji App Simulator",
+    "default_icon": "resources/icon.ico",
+    "default_popup": "popup.html"
+  }
+}

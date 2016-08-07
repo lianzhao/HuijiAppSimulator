@@ -1,0 +1,206 @@
+﻿body {
+    background-color: #313131!important;
+    color: #d8d8d8!important;
+    font-family: "Lantinghei SC","Open Sans",Arial,"Hiragino Sans GB","Microsoft YaHei","微软雅黑","STHeiti","WenQuanYi Micro Hei",SimSun,sans-serif;
+    padding: 0.5em!important;
+    font-size: 16px!important;
+}
+a {
+    color: #85d0f5!important;
+}
+tbody {
+    background: #2a5592!important;
+	
+}
+/*infobox image for 冰火*/
+.infobox-title .floatright {
+    display: inline-flex!important;
+    float: left!important;
+}
+.infobox-title .floatleft {
+    display: inline-flex!important;
+    float: right!important;
+}
+.infobox{
+    float: none!important;
+    margin: 0.5em auto!important;
+    font-size: 14px!important;
+	width:100%!important;
+	color: #fff!important;
+	border-collapse: collapse!important;
+}
+.ads,.tnavbar{
+	display:none;
+}
+/*infobox*/
+.infobox-title th{
+	box-shadow:none!important;
+   	text-align: center!important;
+    font-size: 120%!important;
+}
+.infobox-header th{
+    text-align: center!important;
+    padding: 0.5em!important;
+    background: #4f84ce!important;
+	font-weight: normal!important;
+}
+img.thumbimage,.infobox-image >.image img ,.infobox-image img{
+    width: 100%!important;
+    height: auto!important;
+}
+th.infobox-label {
+    padding:8px!important;
+    vertical-align: top!important;
+}
+td.infobox-data {
+    padding:8px!important;
+}
+@font-face
+{
+   font-family: Tolkien;
+   src: url('/resources/font/TOLKIEN.TTF');
+}
+.infobox-title{
+	font-size:20px; 
+	font-family:'Tolkien','Times New Roman','华文宋体','微软雅黑';
+	text-shadow:0 0 1px #000;
+	}
+
+/*缩略图thumb*/
+div.thumb{
+	width:100%!important;
+	margin-bottom:0.5em;
+}
+div.thumbinner{
+    padding:0px!important;
+	border:none!important;
+    background-color: #2a5592!important;
+	text-align: center!important;
+	border-radius: 0px!important;
+    width: 100%!important;
+}
+.thumbcaption{
+    border: none!important;
+    text-align: center!important;
+	padding:0px!important;
+}
+.thumbimage{
+   border:none!important;
+}
+/*段落section bar*/
+.chapter-section{
+   background: #2a5592!important;
+   border:none!important;
+}
+/*quote*/
+table.quote{
+	background: #2a5592!important;
+}
+.quote{
+  width:100%!important;
+}
+.quote-container{
+    padding:18px 8px!important;
+}
+.quoteby{
+	padding:12px!important;
+}
+/*navbox*/
+.navbox{
+	margin:1em 0!important;
+}
+.navbox tbody{
+	background: #000000!important;
+}
+.navbox-group,.navbox-list  {
+	border:none!important;
+    width: 100%!important;
+	font-size: 14px!important;
+	display: block!important;
+	padding: 0.5em!important;
+}
+.navbox-group{
+	background: #193d6f!important;
+}
+.navbox-list {
+  	background-color: #171717!important;
+}
+.nav-div{
+	padding:0.5em!important;
+}
+.navbox-title{
+	text-align: center!important;
+    font-size: 14px!important;
+    font-weight: normal!important;
+    background: #2c5590!important;
+	padding: 0.5em!important;
+}
+.navbox-subgroup {
+    width: 100%!important;
+	font-weight: normal!important;
+}
+.navbox-subgroup td.navbox-list {
+    background: #21477d!important;
+}
+td.navbox-abovebelow {
+    padding: 0.5em 0px 0px 1em!important;
+    font-size: 14px!important;
+}
+/*mbox*/
+.mbox{
+	width:100%!important;
+}
+.mboxleft{
+	display:none!important;
+}
+/*家族树*/
+.familyTreeWrapper{
+    border:none!important;
+    overflow-x: scroll!important;
+    background: #2a528b!important;
+    width: auto!important;
+}
+.familyTree{
+	width: 1000px!important;
+}
+.boxclass a {
+    color: #fff!important;
+}
+/*注释*/
+.reflist{
+	column-count:1!important;
+}
+.references li {
+    margin: 0.5em!important;
+}
+
+/*gallery fix*/
+ul.gallery{
+	padding: 0!important;
+}
+li.gallerybox,.gallerybox div,.gallerybox .thumb{
+	width:100%!important;
+}
+.gallery img {
+    width: 100%!important;
+    height: auto!important;
+}
+.gallerybox div{
+	background: #2a5592!important;
+    text-align: center!important;
+}
+li.gallerybox {
+    width: 100%!important;
+    list-style-type: none!important;
+}
+/*注释上标*/
+sup.reference {
+    line-height: 1.2;
+top: 0!important;
+}
+.mw-collapsible {
+    display: initial!important;
+    visibility: initial!important;
+}
+
+

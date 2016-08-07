@@ -1,0 +1,64 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+
+<head>
+  <meta charset="utf-8"></meta>
+
+  <title>Huiji App Simulator</title>
+
+  <link type="text/css" rel="stylesheet" href="lib/css/bootstrap.min.css" />
+
+  <style>
+    body {
+      width: 300px;
+      min-height: 400px;
+    }
+  </style>
+
+  <script src="lib/js/jquery-2.1.3.min.js"></script>
+  <script src="lib/js/bootstrap.min.js"></script>
+  <script src="popup.js"></script>
+  <!--<script>console.log("qeqwrq");
+    $("#resolution").change(function () {
+        console.log("fadsfa")
+        var val = $("#resolution").val();
+        console.log(val);
+        if (!val) {
+            return;
+        }
+        chrome.tabs.executeScript({
+            code: 'document.body.style.width=' + val,
+        });
+    })
+
+</script>-->
+</head>
+
+<body>
+  <div id="root">
+    <!--<div id="normalmode">
+    <button class="btn btn-primary">在App模式中打开</button>
+  </div>-->
+    <div id="appmode">
+      <div class="row">
+        <input type="checkbox"> App模式
+      </div>
+      <div class="row">
+        <label>分辨率</label>
+        <select id="resolution">
+        <option value="">默认</option>
+        <option value="320px">iPhone 5/5s/5c</option>
+        <option value="375px">iPhone 6</option>
+        <option value="414px">iPhone 6 Plus</option>
+      </select>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
